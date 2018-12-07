@@ -1,0 +1,27 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "test_edidact",
+    "password": "lb",
+    "name": "mysqlDs",
+    "user": "lb",
+    "connector": "mysql"
+  },
+  "mysqlDbs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "edidact",
+    "password": "lb",
+    "name": "mysqlDs",
+    "user": "lb",
+    "connector": "mysql"
+  }
+
+}

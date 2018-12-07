@@ -1,0 +1,25 @@
+{
+  "name": "Cours",
+  "plural": "Courses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "subject": {
+      "type": "belongsTo",
+      "model": "Subject",
+      "foreignKey": "subjectId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

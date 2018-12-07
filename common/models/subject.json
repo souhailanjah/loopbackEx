@@ -1,0 +1,31 @@
+{
+  "name": "Subject",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cours": {
+      "type": "hasMany",
+      "model": "Cours"
+    },
+    "exercises": {
+      "type": "hasMany",
+      "model": "Exercise"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
